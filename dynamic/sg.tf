@@ -31,6 +31,6 @@ resource "aws_security_group" "dynamic-demo" {
   }
 
   tags = {
-    Name = "robosho-all-aws"
+    Name = "robosho-all-aws-1"
   }
 }

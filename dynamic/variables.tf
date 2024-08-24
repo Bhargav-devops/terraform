@@ -20,6 +20,13 @@ variable ingress_rules{
             to_port     = 22
             protocol    = "tcp"
             cidr_blocks = ["0.0.0.0/0"]
+        },
+        {
+            description = "allow port no 3306"
+            from_port   = 3306
+            to_port     = 3306
+            protocol    = "tcp"
+            cidr_blocks = ["0.0.0.0/0"]
         }
 
     ]
